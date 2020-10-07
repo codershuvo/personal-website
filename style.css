@@ -1,0 +1,189 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.headerBg {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    height: 850px;
+    width: 100%;
+}
+.halfWidth {
+    width: 35%;
+    float: left;
+    padding: 0 10%;
+    padding-top: 5%;
+}
+
+.topPadding {
+    padding-top: 150px;
+}
+.noPadding {
+    padding-left: 0;
+}
+.halfWidth img {
+    width: 100%;
+}
+
+h1 {
+    color: #EB4D79;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
+.linkBtn {
+    text-decoration: none;
+    background: linear-gradient(45deg, #EB508E, #EB4D77);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.biographyBg {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latestWorkBg {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latestWorkBg h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.workimg {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.workimg img{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.workimg img:last-child {
+    margin-right: 0;
+}
+
+.clientArea {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clientArea h2 {
+    margin-bottom: 80px;
+}
+
+.fontSize {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footerBg {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leaveMsg {
+    width: 40%;
+    margin: 200px auto;
+    background: linear-gradient(45deg, #EB5090, #EB4C73);
+    padding: 3%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.leaveMsg p {
+    color: white;
+}
+
+.leaveMsg a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Responsive with max width 800px */
+@media screen and (max-width: 800px) {
+    .halfWidth {
+        width: 90%;
+        padding: 5%;
+    }
+    .footerBg, 
+    .latestWorkBg, 
+    .biographyBg, 
+    .headerBg {
+        background-image: none;
+    }
+    .topPadding {
+        padding-top: 0;
+    }
+    section {
+        height: auto;
+    }
+    .topPadding {
+        padding-top: 0;
+    }
+    .workimg {
+        width: 90%;
+        padding: 5%;
+        margin: 0;
+    }
+    
+    .workimg img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    .clientArea {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .clientArea h2 {
+        margin-bottom: 80px;
+    }
+    .leaveMsg {
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+    }
+    .leaveMsg a {
+        font-size: 17px;
+    }
+}
