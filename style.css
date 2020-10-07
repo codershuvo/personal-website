@@ -136,6 +136,7 @@ footer p {
     .halfWidth {
         width: 90%;
         padding: 5%;
+        text-align: center;
     }
     .footerBg, 
     .latestWorkBg, 
