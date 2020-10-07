@@ -186,4 +186,7 @@ footer p {
     .leaveMsg a {
         font-size: 17px;
     }
+    .halfWidth p {
+        text-align: justify;
+    }
 }
